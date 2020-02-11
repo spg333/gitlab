@@ -8,7 +8,7 @@ var movieHistory = document.querySelector("#movieHistoryCard");
 // Added myMOvies object **2
 var myMovies = {
     
-};
+}; //This is object
 
 if(localStorage.getItem("myMovies")) {
     myMovies = JSON.parse(localStorage.getItem("myMovies"));
