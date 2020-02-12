@@ -26,10 +26,10 @@ function clearMovies() {
     myMovieList.innerHTML = '';
 }
 
-function updateMovieHistory(movie) { // don't really understand this part
+function updateMovieHistory(movie) { //creating table 
 
     var myTable= `
-    <h5 class="card-title">Movie History</h5>
+    <h5 class="card-title">Movie History</h5> 
     <table id="movieHistoryTable">
         <tr>
             <th style='width: 400px;'>Title</th>
@@ -41,7 +41,7 @@ function updateMovieHistory(movie) { // don't really understand this part
                 }).join("")
         }
     </table>
-    `;
+    `; // this isn't great way... your company won't like this 
     movieHistory.innerHTML = myTable;
 }
 
