@@ -26,7 +26,7 @@ function clearMovies() {
     myMovieList.innerHTML = '';
 }
 
-function updateMovieHistory(movie) {
+function updateMovieHistory(movie) { // don't really understand this part
 
     var myTable= `
     <h5 class="card-title">Movie History</h5>
